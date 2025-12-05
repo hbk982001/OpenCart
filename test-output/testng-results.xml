@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-05T16:43:52 IST" name="Suite" finished-at="2025-12-05T16:44:12 IST" duration-ms="20402">
+    <groups>
+    </groups>
+    <test started-at="2025-12-05T16:43:52 IST" name="Test" finished-at="2025-12-05T16:43:58 IST" duration-ms="6618">
+      <class name="testCase.TC001_RegistartionPage">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC001_RegistartionPage@45b4c3a9]" started-at="2025-12-05T16:43:52 IST" name="Setup" finished-at="2025-12-05T16:43:56 IST" duration-ms="4159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Registration()[pri:0, instance:testCase.TC001_RegistartionPage@45b4c3a9]" started-at="2025-12-05T16:43:56 IST" name="Registration" finished-at="2025-12-05T16:43:58 IST" duration-ms="2042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC001_RegistartionPage@45b4c3a9]" started-at="2025-12-05T16:43:58 IST" name="tearDown" finished-at="2025-12-05T16:43:58 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TC001_RegistartionPage -->
+    </test> <!-- Test -->
+    <test started-at="2025-12-05T16:43:59 IST" name="Test1" finished-at="2025-12-05T16:44:03 IST" duration-ms="4566">
+      <class name="testCase.TC002_LoginwithConfig">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC002_LoginwithConfig@11fc564b]" started-at="2025-12-05T16:43:59 IST" name="Setup" finished-at="2025-12-05T16:44:01 IST" duration-ms="2168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Login()[pri:0, instance:testCase.TC002_LoginwithConfig@11fc564b]" started-at="2025-12-05T16:44:01 IST" name="Login" finished-at="2025-12-05T16:44:03 IST" duration-ms="2136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC002_LoginwithConfig@11fc564b]" started-at="2025-12-05T16:44:03 IST" name="tearDown" finished-at="2025-12-05T16:44:03 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TC002_LoginwithConfig -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-12-05T16:44:03 IST" name="Test2" finished-at="2025-12-05T16:44:12 IST" duration-ms="8913">
+      <class name="testCase.TC003_LoginwithExcelData">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC003_LoginwithExcelData@7c1e2a9e]" started-at="2025-12-05T16:44:03 IST" name="Setup" finished-at="2025-12-05T16:44:06 IST" duration-ms="3044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.TC003_LoginwithExcelData@7c1e2a9e]" started-at="2025-12-05T16:44:07 IST" name="Login" data-provider="testLogin" finished-at="2025-12-05T16:44:09 IST" duration-ms="2158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bbk3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bbk3@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.TC003_LoginwithExcelData@7c1e2a9e]" started-at="2025-12-05T16:44:09 IST" name="Login" data-provider="testLogin" finished-at="2025-12-05T16:44:10 IST" duration-ms="1183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ggh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.TC003_LoginwithExcelData@7c1e2a9e]" started-at="2025-12-05T16:44:10 IST" name="Login" data-provider="testLogin" finished-at="2025-12-05T16:44:12 IST" duration-ms="1447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abck@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bhbh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC003_LoginwithExcelData@7c1e2a9e]" started-at="2025-12-05T16:44:12 IST" name="tearDown" finished-at="2025-12-05T16:44:12 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TC003_LoginwithExcelData -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

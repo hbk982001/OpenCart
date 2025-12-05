@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count ="5" >
+
+<listeners >
+	<listener class-name= "Utility.extentReports"/>
+</listeners> 
+
+
+  <test thread-count="5" name="Test">
+  <parameter name="os" value="Windows"></parameter>
+  <parameter name="browser" value="edge"></parameter>
+  	<classes>
+  		<class name="testCase.TC001_RegistartionPage"/>
+  	</classes>
+  </test>
+  
+  <test thread-count="5" name="Test1">
+  <parameter name="os" value="Windows"></parameter>
+  <parameter name="browser" value="edge"></parameter>
+  	<classes>
+  		<class name="testCase.TC002_LoginwithConfig"/>
+  	</classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test2">
+  <parameter name="os" value="Windows"></parameter>
+  <parameter name="browser" value="edge"></parameter>
+  	<classes>
+  		<class name="testCase.TC003_LoginwithExcelData"/>
+  	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

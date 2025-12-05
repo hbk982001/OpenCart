@@ -1,0 +1,18 @@
+2025-12-04 15:56:52 [main] INFO  testCase.TC001_RegistartionPage- ****** testing is started *******
+2025-12-04 15:56:54 [main] INFO  testCase.TC001_RegistartionPage- ****** testing is completed *******
+2025-12-04 15:58:45 [main] INFO  testCase.TC001_RegistartionPage- ****** testing is started *******
+2025-12-04 15:58:47 [main] INFO  testCase.TC001_RegistartionPage- ****** testing is completed *******
+2025-12-04 16:18:51 [main] INFO  testCase.TC001_RegistartionPage- ****** testing is started *******
+2025-12-04 16:18:53 [main] INFO  testCase.TC001_RegistartionPage- ****** testing is completed *******
+2025-12-04 16:20:28 [main] INFO  testCase.TC001_RegistartionPage- ****** testing is started *******
+2025-12-04 16:20:30 [main] INFO  testCase.TC001_RegistartionPage- ****** testing is completed *******
+2025-12-04 16:20:30 [main] INFO  testCase.TC001_RegistartionPage- ****** testing is started *******
+2025-12-04 16:20:30 [main] ERROR testCase.TC001_RegistartionPage- ***** test failed ******
+2025-12-04 16:20:58 [main] INFO  testCase.TC001_RegistartionPage- ****** testing is started *******
+2025-12-04 16:21:00 [main] INFO  testCase.TC001_RegistartionPage- ****** testing is completed *******
+2025-12-04 16:21:40 [main] INFO  testCase.TC001_RegistartionPage- ****** testing is started *******
+2025-12-04 16:21:41 [main] INFO  testCase.TC001_RegistartionPage- ****** testing is completed *******
+2025-12-04 16:22:53 [TestNG-tests-1] INFO  testCase.TC001_RegistartionPage- ****** testing is started *******
+2025-12-04 16:22:55 [TestNG-tests-2] INFO  testCase.TC001_RegistartionPage- ****** testing is started *******
+2025-12-04 16:22:55 [TestNG-tests-1] INFO  testCase.TC001_RegistartionPage- ****** testing is completed *******
+2025-12-04 16:22:57 [TestNG-tests-2] INFO  testCase.TC001_RegistartionPage- ****** testing is completed *******
